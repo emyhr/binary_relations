@@ -55,7 +55,7 @@ def AsymmetricCheck(matrix):
 
     for i in range(n):
         for j in range(i, n):
-            if (not matrix[i][j]) or (not matrix[j][i]):
+            if matrix[i][j] and matrix[j][i]:
                 return False
 
     return True
