@@ -74,7 +74,7 @@ def SymmetricCheck(matrix):
     assert n == m, "the input must be a square matrix"
 
     for i in range(n):
-        for j in range(m):
+        for j in range(i, m):
             if not (matrix[i][j] == matrix[j][i]):
                 return False
 
