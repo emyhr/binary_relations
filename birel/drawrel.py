@@ -17,5 +17,9 @@ def DrawGraph(matrix):
     edges = np.array(np.nonzero(matrix)).transpose()
     for edge in edges:
         graph.edge(str(edge[0]), str(edge[1]))
-
+    
     return graph
+
+
+    if __name__ == '__main__':
+    pass

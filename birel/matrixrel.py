@@ -19,3 +19,7 @@ def GetMatrix(fpath):
         matrix = pd.read_csv(fpath, sep=',', index_col=None, header=None).values
 
     return matrix
+
+
+if __name__ == '__main__':
+    pass

@@ -235,3 +235,7 @@ def StrictRelation(matrix):
         P_matrix[j][i] = val2
 
     return P_matrix
+
+
+if __name__ == '__main__':
+	pass

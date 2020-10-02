@@ -33,3 +33,7 @@ def TopSort(matrix):
     else:
         raise ValueError("Input matrix is not DAG!")
 
+
+if __name__ == '__main__':
+    pass
+
